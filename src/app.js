@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to the React App</h1>
+        <h1>Welcome to Devora-Berkowitz React App</h1>
         <button /*onClick={fetchData}*/ className="fetch-button">Fetch backend</button>
         <p>{message}</p>
       </header>
