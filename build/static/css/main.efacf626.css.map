@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.efacf626.css","mappings":"AACA,KAGI,wBAAyB,CADzB,4BAA8B,CAD9B,QAGF","sources":["index.css"],"sourcesContent":["/* index.css */\r\nbody {\r\n    margin: 0;\r\n    font-family: Arial, sans-serif;\r\n    background-color: #f5f5f5;\r\n  }\r\n  "],"names":[],"sourceRoot":""}
