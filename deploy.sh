@@ -20,8 +20,8 @@ BUCKET_NAME="my-project-first--bucket"  # Replace with your actual bucket name
 echo "Uploading build folder to Google Cloud Storage bucket: $BUCKET_NAME"
 
 # This command uses `gcloud storage` and avoids any Python-related issues
-gcloud storage cp -r build gs://$BUCKET_NAME
-
+# gcloud storage cp -r build gs://$BUCKET_NAME
+gsutil -D rsync -r "$C:\Users\משתמש\Desktop\devops\devops_mbj_frontend\build" gs://$BUCKET_NAME 
 # Step 4: Verify deployment
 if [ $? -eq 0 ]; then
   echo "Deployment completed successfully!"
